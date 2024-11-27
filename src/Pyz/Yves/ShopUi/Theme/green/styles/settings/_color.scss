@@ -1,22 +1,24 @@
-$setting-color-yellow: #ffbf1c;
-$setting-color-blue: #5e3dff;
-$setting-color-white: rgba(53, 240, 53, 0.59);
-$setting-color-gray-1: #f5f5f5;
-$setting-color-gray-2: #ededed;
-$setting-color-gray-3: #dedede;
-$setting-color-gray-4: #555;
-$setting-color-gray-5: #444;
-$setting-color-gray-6: #333;
-$setting-color-black: #cb1d1d;
+// Main Theme Colors
+$setting-color-yellow: #c9e265; // Light green-yellow for accents
+$setting-color-blue: #237e4c; // Deep green for contrast
+$setting-color-white: #ffffff; // Pure white for clean areas
+$setting-color-gray-1: #f7f9f6; // Very light greenish-gray
+$setting-color-gray-2: #e9f2ea; // Light green-gray
+$setting-color-gray-3: #cfd8ce; // Medium green-gray
+$setting-color-gray-4: #7a8d7b; // Dark green-gray
+$setting-color-gray-5: #586d5a; // Deep green-gray
+$setting-color-gray-6: #3d4f3e; // Darker green-gray
+$setting-color-black: #2a3b2a; // Deep green-black
 
-$setting-color-info: #f0ede4;
+$setting-color-info: #dff3e0; // Soft mint green for informational backgrounds
 
-$setting-color-main: #b53838;
-$setting-color-alt: #ff4859;
-$setting-color-text: $setting-color-black;
-$setting-color-input-border: $setting-color-info;
-$setting-color-input-border-focus: $setting-color-gray-3;
+$setting-color-main: #4caf50; // Primary vibrant green
+$setting-color-alt: #81c784; // Secondary soft green
+$setting-color-text: $setting-color-black; // Text with green-black for readability
+$setting-color-input-border: $setting-color-gray-3; // Neutral border color
+$setting-color-input-border-focus: $setting-color-main; // Focused border color
 
+// Transparent Variations
 $setting-color-alpha-1: rgba($setting-color-black, 0.05);
 $setting-color-alpha-2: rgba($setting-color-main, 0.1);
 $setting-color-alpha-3: rgba($setting-color-black, 0.5);
@@ -26,22 +28,24 @@ $setting-color-alpha-7: rgba($setting-color-gray-3, 0.75);
 $setting-color-alpha-8: rgba($setting-color-black, 0.24);
 $setting-color-alpha-9: rgba($setting-color-main, 0.4);
 
+// Action Colors
 $setting-color-actions: (
     info: $setting-color-info,
-    warning: #f37849,
-    success: #4ac38e,
-    alert: #cb3d49,
+    warning: #ffc107, // Muted orange-yellow
+    success: #4caf50, // Bright green
+    alert: #e57373, // Soft red for alerts
 );
 
+// Status Colors
 $setting-color-statuses: (
-    scheme-1-text: #00b2b5,
-    scheme-1-backgound: #e9f7f7,
-    scheme-2-text: #b7b1a5,
-    scheme-2-backgound: #f0ede6,
+    scheme-1-text: #4caf50, // Main green for emphasis
+    scheme-1-backgound: #e8f5e9, // Soft green background
+    scheme-2-text: #81c784, // Secondary green text
+    scheme-2-backgound: #f1f8e9, // Light green background
     scheme-3-text: $setting-color-gray-4,
     scheme-3-backgound: $setting-color-gray-2,
-    scheme-4-text: #ff2a54,
-    scheme-4-backgound: #f6dee0,
-    scheme-5-text: #000,
+    scheme-4-text: #e57373, // Light red for alerts
+    scheme-4-backgound: #fbe9e7, // Light pink background
+    scheme-5-text: #2a3b2a, // Deep green-black
     scheme-5-backgound: $setting-color-gray-1,
 );
