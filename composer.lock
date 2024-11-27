@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e4a97a01ff39e9c4b2b48fee2e45b995",
+    "content-hash": "ff9be2b309f60ee41afadd9592615e31",
     "packages": [
         {
             "name": "async-aws/core",
@@ -61827,21 +61827,21 @@
         },
         {
             "name": "spryker/development",
-            "version": "3.38.0",
+            "version": "3.40.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spryker/development.git",
-                "reference": "90bd50b0116f0a563b34f78ae21ca90ad2e7964f"
+                "reference": "2123aa9425ac84ac24510603de64fc148a687883"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spryker/development/zipball/90bd50b0116f0a563b34f78ae21ca90ad2e7964f",
-                "reference": "90bd50b0116f0a563b34f78ae21ca90ad2e7964f",
+                "url": "https://api.github.com/repos/spryker/development/zipball/2123aa9425ac84ac24510603de64fc148a687883",
+                "reference": "2123aa9425ac84ac24510603de64fc148a687883",
                 "shasum": ""
             },
             "require": {
                 "nette/di": "^2.4.7 || ^3.2.0",
-                "php": ">=8.1",
+                "php": ">=8.2",
                 "phpmd/phpmd": "^2.0.0",
                 "spryker/config": "^3.0.0",
                 "spryker/graph": "^3.0.0",
@@ -61859,7 +61859,8 @@
                 "spryker/testify": "*"
             },
             "bin": [
-                "bin/development"
+                "bin/development",
+                "bin/phpstorm-command-line-tools.sh"
             ],
             "type": "library",
             "extra": {
@@ -61882,9 +61883,9 @@
             ],
             "description": "Development module",
             "support": {
-                "source": "https://github.com/spryker/development/tree/3.38.0"
+                "source": "https://github.com/spryker/development/tree/3.40.1"
             },
-            "time": "2024-09-19T14:39:52+00:00"
+            "time": "2024-11-11T15:26:08+00:00"
         },
         {
             "name": "spryker/docker-chromedriver",
@@ -62855,7 +62856,7 @@
         "ext-readline": "*",
         "ext-redis": "*"
     },
-    "platform-dev": {},
+    "platform-dev": [],
     "platform-overrides": {
         "php": "8.2.0"
     },

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pyz\Shared\Twig;
+namespace Pyz\Shared\TwigEU;
 
 use Spryker\Shared\Twig\TwigConfig as SprykerTwigConfig;
 

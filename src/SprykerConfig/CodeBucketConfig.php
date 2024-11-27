@@ -24,6 +24,8 @@ class CodeBucketConfig extends AbstractCodeBucketConfig
         return [
             'EU',
             'US',
+            'DE',
+            'AT'
         ];
     }
 
@@ -34,13 +36,14 @@ class CodeBucketConfig extends AbstractCodeBucketConfig
      */
     public function getDefaultCodeBucket(): string
     {
-        if ($this->isAcpDevOn()) {
+
+
             return APPLICATION_STORE;
-        }
 
-        $codeBuckets = $this->getCodeBuckets();
 
-        return defined('APPLICATION_REGION') ? APPLICATION_REGION : reset($codeBuckets);
+      //  $codeBuckets = $this->getCodeBuckets();
+
+     //   return defined('APPLICATION_REGION') ? APPLICATION_REGION : reset($codeBuckets);
     }
 
     /**
